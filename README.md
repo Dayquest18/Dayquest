@@ -1,13 +1,10 @@
-# DAYQUEST v3 — Pokémon-style world map
+# DAYQUEST v4 — top-down world refresh
 
-This update retains the working v2 morning planner, daily list, clickable arenas and notes. It adds a top-down pixel-art village with six tappable locations, plus a brown-and-white Brittany spaniel pixel sprite. No XP, levels, checkboxes or achievements. Wife character remains only in Notes & Reminders.
+Changes: distinct CHELLE flower shop, TINKD workshop, gym, skatepark, cleaning cottage and family cottage; richer map landscaping; sticky header removed so the map is not covered while scrolling; refreshed service-worker cache.
 
-## Upload to GitHub Pages
+No changes to your daily adventure choices, notes, storage keys, arena navigation or task-free list.
 
-1. Extract ZIP. Upload **all files** in this folder to the root of your existing `Dayquest` GitHub repository, replacing same-name files. **New files**: `world.svg` and `brittany.svg`.
-2. Commit changes. Wait for GitHub Pages deployment.
-3. Test https://dayquest18.github.io/Dayquest/?v=3 in Safari. Close/reopen the Home Screen app. If still cached, follow previous backup and reinstall steps; do not delete app data without copying notes first.
+## Publish
+Upload the contents of this ZIP (not the ZIP itself) to the root of your existing GitHub Pages repository, replacing existing files. Commit, wait for Pages to deploy, then open `https://dayquest18.github.io/Dayquest/?v=4` in Safari.
 
-## Storage and limits
-
-Daily choices and notes are saved in localStorage under `dayquest-v2` for continuity. They are not synchronized or backed up. No push notifications. World map uses responsive HTML buttons overlaying an SVG image; the buttons are accessible and tap-friendly.
+Local notes are stored on your device. Back them up before deleting or clearing website data.
