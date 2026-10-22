@@ -1,12 +1,13 @@
-# DAYQUEST v2
+# DAYQUEST v3 — Pokémon-style world map
 
-Retro adventure daily planner. No XP, levels, progress bars, achievements, or task completion checkboxes.
+This update retains the working v2 morning planner, daily list, clickable arenas and notes. It adds a top-down pixel-art village with six tappable locations, plus a brown-and-white Brittany spaniel pixel sprite. No XP, levels, checkboxes or achievements. Wife character remains only in Notes & Reminders.
 
-## Updating GitHub Pages
+## Upload to GitHub Pages
 
-1. Open your `Dayquest` repository on GitHub.
-2. Replace the root `index.html`, `app.js`, `sw.js`, `manifest.webmanifest`, and icons with the files in this folder (not the ZIP itself).
-3. Commit changes. Keep Pages set to `main` / `(root)`.
-4. Reopen https://dayquest18.github.io/Dayquest/ on your iPhone. If the old version persists, close and reopen the app or refresh in Safari.
+1. Extract ZIP. Upload **all files** in this folder to the root of your existing `Dayquest` GitHub repository, replacing same-name files. **New files**: `world.svg` and `brittany.svg`.
+2. Commit changes. Wait for GitHub Pages deployment.
+3. Test https://dayquest18.github.io/Dayquest/?v=3 in Safari. Close/reopen the Home Screen app. If still cached, follow previous backup and reinstall steps; do not delete app data without copying notes first.
 
-The app stores daily choices, daily additions, and notes locally. It attempts to import notes and day choices from the previous v1 local storage the first time v2 loads. Back up important notes manually before changing devices or clearing browser data. No push notifications or cross-device sync.
+## Storage and limits
+
+Daily choices and notes are saved in localStorage under `dayquest-v2` for continuity. They are not synchronized or backed up. No push notifications. World map uses responsive HTML buttons overlaying an SVG image; the buttons are accessible and tap-friendly.
